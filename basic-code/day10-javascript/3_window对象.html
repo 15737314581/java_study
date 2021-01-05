@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>window对象</title>
+</head>
+<body>
+    <input type="button" value="打开窗口" id="button01">
+    <input type="button" value="关闭窗口" id="button02">
+    <script>
+        var btn01 = document.getElementById("button01");
+        var btn02 = document.getElementById("button02");
+        var newWindow;
+        btn01.onclick = function () {
+            newWindow = open("https://www.baidu.com/");
+        }
+        btn02.onclick = function () {
+            newWindow.close();
+        }
+    </script>
+
+</body>
+</html>
