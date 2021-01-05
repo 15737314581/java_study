@@ -22,6 +22,7 @@ public class UserListServlet extends HttpServlet {
         request.setAttribute("users",users);
         //×ª·¢µ½list.jsp
         request.getRequestDispatcher("/list.jsp").forward(request,response);
+        System.out.println("=============");
 
     }
 
