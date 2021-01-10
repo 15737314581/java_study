@@ -7,7 +7,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class JdbcDemo08 {
+public class   JdbcDemo08 {
     public static void main(String[] args) {
         Connection conn = null;
         PreparedStatement pstmt1 = null;
