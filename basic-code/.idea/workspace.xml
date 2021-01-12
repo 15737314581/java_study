@@ -2,16 +2,25 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
+      <artifact name="day020-case:war exploded" />
       <artifact name="day021-filter&amp;listener:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60ea8966-03fb-407d-961f-592a781d5143" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day021-filter&amp;listener/src/cn/itcast/web/filter/FilterDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day021-filter&amp;listener/src/cn/itcast/web/filter/FilterDemo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day021-filter&amp;listener/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day020-case/src/web/filter/LoginFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day020-case/src/web/servlet/LigonServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/day020-case/src/web/servlet/LigonServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day020-case/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/day020-case/web/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day021-filter&amp;listener/src/cn/itcast/web/filter/FilterDemo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/day021-filter&amp;listener/src/cn/itcast/web/filter/FilterDemo02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/day020_case_war_exploded/WEB-INF/classes/web/servlet/AddUserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/day020_case_war_exploded/WEB-INF/classes/web/servlet/AddUserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/day020_case_war_exploded/WEB-INF/classes/web/servlet/LigonServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/day020_case_war_exploded/WEB-INF/classes/web/servlet/LigonServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/day020_case_war_exploded/WEB-INF/classes/web/servlet/UserListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/day020_case_war_exploded/WEB-INF/classes/web/servlet/UserListServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/day020_case_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/day020_case_war_exploded/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day020-case/web/servlet/AddUserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day020-case/web/servlet/AddUserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day020-case/web/servlet/LigonServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day020-case/web/servlet/LigonServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day020-case/web/servlet/UserListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day020-case/web/servlet/UserListServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../midas-autotest-cpc" beforeDir="false" afterPath="$PROJECT_DIR$/../midas-autotest-cpc" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +38,8 @@
     <session id="-2032672858">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
-          <entry key="project.open.time.1" value="8" />
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.1" value="9" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.16" value="1" />
@@ -38,21 +47,21 @@
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Driver" value="1" />
-          <entry key="class" value="6" />
+          <entry key="class" value="8" />
           <entry key="css" value="1" />
           <entry key="dtd" value="1" />
-          <entry key="html" value="34" />
+          <entry key="html" value="35" />
           <entry key="iml" value="3" />
-          <entry key="java" value="297" />
+          <entry key="java" value="309" />
           <entry key="jpg" value="1" />
           <entry key="js" value="1" />
-          <entry key="jsp" value="23" />
+          <entry key="jsp" value="25" />
           <entry key="properties" value="8" />
           <entry key="rnc" value="1" />
           <entry key="txt" value="7" />
@@ -62,14 +71,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="6" />
+          <entry key="CLASS" value="8" />
           <entry key="CSS" value="1" />
           <entry key="DTD" value="1" />
-          <entry key="HTML" value="34" />
+          <entry key="HTML" value="35" />
           <entry key="IDEA_MODULE" value="3" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="297" />
-          <entry key="JSP" value="23" />
+          <entry key="JAVA" value="309" />
+          <entry key="JSP" value="25" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="Properties" value="8" />
@@ -83,19 +92,19 @@
           <entry key="dummy" value="43" />
           <entry key="ft" value="41" />
           <entry key="html" value="4324" />
-          <entry key="java" value="34052" />
-          <entry key="jsp" value="3334" />
+          <entry key="java" value="34442" />
+          <entry key="jsp" value="3335" />
           <entry key="properties" value="67" />
-          <entry key="txt" value="25" />
+          <entry key="txt" value="45" />
           <entry key="xml" value="249" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="4324" />
-          <entry key="JAVA" value="34052" />
-          <entry key="JSP" value="3334" />
-          <entry key="PLAIN_TEXT" value="68" />
+          <entry key="JAVA" value="34442" />
+          <entry key="JSP" value="3335" />
+          <entry key="PLAIN_TEXT" value="88" />
           <entry key="Properties" value="67" />
           <entry key="VTL" value="41" />
           <entry key="XML" value="249" />
@@ -109,30 +118,75 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day07-code/src/cn/itcast/jdbc/JdbcDemo05.java">
+        <entry file="file://$PROJECT_DIR$/day020-case/src/web/servlet/LigonServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="257">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day020-case/src/web/servlet/AddUserServlet.java">
+        <entry file="file://$PROJECT_DIR$/day018-response/src/cn/itcast/web/servlet/ResponseServlet02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+            <state relative-caret-position="85">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day021-filter&amp;listener/src/cn/itcast/web/filter/FilterDemo01.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day018-response/src/cn/itcast/web/download/DownloadServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="26" />
+            <state relative-caret-position="85">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day018-response/src/cn/itcast/web/servletcontext/ServletContextDemo01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day018-response/src/cn/itcast/web/utils/DownLoadUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day020-case/web/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/io/Writer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="157" selection-start-line="157" selection-end-line="157" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="622" selection-start-line="622" selection-end-line="622" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#22821#22822#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,62 +195,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day021-filter&amp;listener/src/cn/itcast/web/filter/FilterDemo02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day021-filter&amp;listener/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day021-filter&amp;listener/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day07-code/src/cn/itcast/jdbc/JdbcDemo06.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day07-code/src/cn/itcast/jdbc/JdbcDemo07.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day020-case/src/web/filter/LoginFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day07-code/src/cn/itcast/jdbc/JdbcDemo08.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day020-el&amp;jstl/src/cn/itcast/domain/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-198">
-              <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+            <state relative-caret-position="197">
+              <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -226,7 +235,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day017-test/src/cn/itcast/web/servlet/CheckcodeServlet.java" />
         <option value="$PROJECT_DIR$/day018-response/src/cn/itcast/web/download/DownloadServlet1.java" />
         <option value="$PROJECT_DIR$/day018-response/web/download.html" />
         <option value="$PROJECT_DIR$/day018-response/src/cn/itcast/web/servletcontext/ServletContextDemo01.java" />
@@ -253,8 +261,6 @@
         <option value="$PROJECT_DIR$/day020-case/src/web/servlet/CheckCodeServlet.java" />
         <option value="$PROJECT_DIR$/day020-case/src/domain/User.java" />
         <option value="$PROJECT_DIR$/day020-case/src/dao/impl/UsreDaoImpl.java" />
-        <option value="$PROJECT_DIR$/day020-case/src/web/servlet/LigonServlet.java" />
-        <option value="$PROJECT_DIR$/day020-case/web/login.jsp" />
         <option value="$PROJECT_DIR$/day020-case/web/add.jsp" />
         <option value="$PROJECT_DIR$/day020-case/src/druid.properties" />
         <option value="$PROJECT_DIR$/day020-case/src/web/servlet/FindUserServlet.java" />
@@ -274,9 +280,12 @@
         <option value="$PROJECT_DIR$/day07-code/src/cn/itcast/jdbc/JdbcDemo08.java" />
         <option value="$PROJECT_DIR$/day020-case/src/web/servlet/AddUserServlet.java" />
         <option value="$PROJECT_DIR$/day021-filter&amp;listener/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/day021-filter&amp;listener/src/cn/itcast/web/filter/FilterDemo02.java" />
         <option value="$PROJECT_DIR$/day021-filter&amp;listener/web/index.jsp" />
         <option value="$PROJECT_DIR$/day021-filter&amp;listener/src/cn/itcast/web/filter/FilterDemo01.java" />
+        <option value="$PROJECT_DIR$/day021-filter&amp;listener/src/cn/itcast/web/filter/FilterDemo02.java" />
+        <option value="$PROJECT_DIR$/day020-case/src/web/servlet/LigonServlet.java" />
+        <option value="$PROJECT_DIR$/day020-case/web/login.jsp" />
+        <option value="$PROJECT_DIR$/day020-case/src/web/filter/LoginFilter.java" />
       </list>
     </option>
   </component>
@@ -292,6 +301,12 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
@@ -322,6 +337,48 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="basic-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day020-case" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day020-case" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day020-case" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day020-case" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day020-case" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day020-case" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
           <expand>
@@ -368,40 +425,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="basic-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day021-filter&amp;listener" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basic-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day021-filter&amp;listener" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basic-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day021-filter&amp;listener" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basic-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day021-filter&amp;listener" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basic-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day021-filter&amp;listener" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -411,7 +434,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610337966911" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610451559299" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -537,6 +560,11 @@
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
+        <artifact name="day020-case:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/day020" />
+          </settings>
+        </artifact>
         <artifact name="day021-filter&amp;listener:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/day021" />
@@ -602,6 +630,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
+          <artifact name="day020-case:war exploded" />
           <artifact name="day021-filter&amp;listener:war exploded" />
         </option>
       </method>
@@ -834,7 +863,8 @@
       <workItem from="1609903223878" duration="1034000" />
       <workItem from="1609937608174" duration="544000" />
       <workItem from="1610002575122" duration="1445000" />
-      <workItem from="1610295526764" duration="2646000" />
+      <workItem from="1610295526764" duration="10530000" />
+      <workItem from="1610451608395" duration="2809000" />
     </task>
     <task id="LOCAL-00001" summary="把本地工程添加到git">
       <created>1609847716187</created>
@@ -864,7 +894,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610295893988</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1.11代码提交1">
+      <created>1610369071519</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610369071519</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -900,13 +937,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="284654000" />
+    <option name="totallyTimeSpent" value="295347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="803" extended-state="0" />
     <layout>
       <window_info id="Web" order="0" sideWeight="0.5090909" side_tool="true" weight="0.2725322" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4909091" visible="true" weight="0.2725322" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4909091" visible="true" weight="0.2761087" />
       <window_info id="Structure" order="2" sideWeight="0.50145346" side_tool="true" weight="0.23748212" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -917,7 +954,7 @@
       <window_info anchor="bottom" id="Application Servers" order="1" weight="0.32994187" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32994187" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.49928468" visible="true" weight="0.28052327" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49928468" weight="0.31976745" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.44040698" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -925,7 +962,7 @@
       <window_info anchor="bottom" id="REST Client" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32994187" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32994187" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.32994187" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5007153" side_tool="true" weight="0.41715115" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32994187" />
       <window_info anchor="bottom" id="Spring" order="15" />
@@ -937,7 +974,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297568" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297568" />
     </layout>
   </component>
@@ -962,75 +999,14 @@
     <MESSAGE value="测试修改" />
     <MESSAGE value="测试修改1" />
     <MESSAGE value="测试修改2" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试修改2" />
+    <MESSAGE value="1.11代码提交1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.11代码提交1" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day019-cookie&amp;session/src/cn/itcast/servlet/CheckcodeServlet1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="43" column="60" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day019-cookie&amp;session/src/cn/itcast/servlet/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day020-el&amp;jstl/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day020-el&amp;jstl/web/el/el1.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day020-el&amp;jstl/web/jstl/jstl_test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-111">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day020-case/web/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-717">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day020-case/web/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="13" selection-end-line="50" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day020-case/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day020-case/web/list.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/day020-case/web/WEB-INF/lib/commons-logging-1.1.1.jar!/org/apache/commons/logging/impl/WeakHashtable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/day08-code/libs/spring-jdbc-5.0.0.RELEASE.jar!/org/springframework/jdbc/support/JdbcAccessor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1087,16 +1063,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day020-case/web/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="65" lean-forward="true" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day020-case/web/update.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/day020-case/web/update.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -1139,31 +1105,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day020-case/web/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2533">
-          <caret line="149" column="213" selection-start-line="149" selection-start-column="213" selection-end-line="149" selection-end-column="213" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day020-case/src/web/servlet/LigonServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day020-case/src/web/servlet/FindUserServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day020-case/src/web/servlet/CheckCodeServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="43" column="59" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -1289,20 +1234,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day021-filter&amp;listener/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day021-filter&amp;listener/src/cn/itcast/web/filter/FilterDemo02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day021-filter&amp;listener/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1312,11 +1243,126 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day021-filter&amp;listener/src/cn/itcast/web/filter/FilterDemo01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="26" />
+        <state relative-caret-position="34">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/apache-tomcat-8.5.61/lib/servlet-api.jar!/javax/servlet/annotation/WebFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day021-filter&amp;listener/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day020-case/src/web/servlet/CheckCodeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day020-case/web/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="149" column="213" selection-start-line="149" selection-start-column="213" selection-end-line="149" selection-end-column="213" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day020-case/web/update.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day018-response/src/cn/itcast/web/servlet/CheckcodeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day018-response/src/cn/itcast/web/servlet/ResponseServlet01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day018-response/src/cn/itcast/web/servlet/ResponseServlet02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day018-response/src/cn/itcast/web/download/DownloadServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day018-response/src/cn/itcast/web/servletcontext/ServletContextDemo01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day018-response/src/cn/itcast/web/utils/DownLoadUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day021-filter&amp;listener/src/cn/itcast/web/filter/FilterDemo02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="622" selection-start-line="622" selection-end-line="622" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#22821#22822#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/io/Writer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="157" selection-start-line="157" selection-end-line="157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day020-case/src/web/servlet/LigonServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day020-case/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day020-case/src/web/filter/LoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
         </state>
       </provider>
     </entry>

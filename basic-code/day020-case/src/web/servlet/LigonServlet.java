@@ -18,24 +18,24 @@ import java.util.Map;
 @WebServlet("/ligonServlet")
 public class LigonServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        //1.ÉèÖÃ±àÂë
+        //1.è®¾ç½®ç¼–ç 
         request.setCharacterEncoding("utf-8");
-        //2.»ñÈ¡Êı¾İ
+        //2.è·å–æ•°æ®
         String verifycode = request.getParameter("verifycode");
         Map<String, String[]> map = request.getParameterMap();
-        //3.Ğ£ÑéÑéÖ¤Âë
+        //3.æ ¡éªŒéªŒè¯ç 
         HttpSession session = request.getSession();
         String checkcode_server =(String)session.getAttribute("CHECKCODE_SERVER");
         session.removeAttribute("CHECKCODE_SERVER");
         if (!checkcode_server.equalsIgnoreCase(verifycode)){
-            //Ğ£ÑéÊ§°Ü
-            //±£´æÌáÊ¾ĞÅÏ¢
-            request.setAttribute("login_msg","ÑéÖ¤Âë´íÎó");
-            //×ª·¢µ½µÇÂ¼Ò³Ãæ
+            //æ ¡éªŒå¤±è´¥
+            //ä¿å­˜æç¤ºä¿¡æ¯
+            request.setAttribute("login_msg","éªŒè¯ç é”™è¯¯");
+            //è½¬å‘åˆ°ç™»å½•é¡µé¢
             request.getRequestDispatcher("/login.jsp").forward(request,response);
             return;
         }
-        //4.·â×°user
+        //4.å°è£…user
         User user = new User();
         try {
             BeanUtils.populate(user,map);
@@ -44,21 +44,21 @@ public class LigonServlet extends HttpServlet {
         } catch (InvocationTargetException e) {
             e.printStackTrace();
         }
-        //5.µ÷ÓÃservice
+        //5.è°ƒç”¨service
         UserService userService = new UserServiceImpl();
         User loginUser = userService.login(user);
-        //6.ÅĞ¶ÏÊÇ·ñµÇÂ¼³É¹¦
+        //6.åˆ¤æ–­æ˜¯å¦ç™»å½•æˆåŠŸ
         if (loginUser != null) {
-            //µÇÂ¼³É¹¦
-            //´æ´¢ÓÃ»§µ½session
+            //ç™»å½•æˆåŠŸ
+            //å­˜å‚¨ç”¨æˆ·åˆ°session
             session.setAttribute("user",loginUser);
-            //ÖØ¶¨Ïò½øÈëindex.jspÒ³Ãæ
+            //é‡å®šå‘è¿›å…¥index.jspé¡µé¢
             response.sendRedirect(request.getContextPath()+"/index.jsp");
         } else {
-            //Ğ£ÑéÊ§°Ü
-            //±£´æÌáÊ¾ĞÅÏ¢
-            request.setAttribute("login_msg","ÓÃ»§Ãû»òÃÜÂë´íÎó");
-            //×ª·¢µ½µÇÂ¼Ò³Ãæ
+            //æ ¡éªŒå¤±è´¥
+            //ä¿å­˜æç¤ºä¿¡æ¯
+            request.setAttribute("login_msg","ç”¨æˆ·åæˆ–å¯†ç é”™è¯¯");
+            //è½¬å‘åˆ°ç™»å½•é¡µé¢
             request.getRequestDispatcher("/login.jsp").forward(request,response);
         }
 

@@ -48,7 +48,7 @@
     <!-- 出错显示的信息框 -->
     <div class="alert alert-warning alert-dismissible" role="alert">
         <button type="button" class="close" data-dismiss="alert" >
-            <span>&times;</span></button>
+            <span>&times</span></button>
         <strong>${login_msg}</strong>
     </div>
 </div>
