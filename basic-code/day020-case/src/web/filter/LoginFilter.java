@@ -17,7 +17,9 @@ public class LoginFilter implements Filter {
         String uri = request.getRequestURI();
         //判断是否包含登录相关的请求路径
         if (uri.contains("/login.jsp") || uri.contains("/ligonServlet") || uri.contains("/css/") || uri.contains("/js/") || uri.contains("/fonts/") || uri.contains("/checkCodeServlet")){
+
             chain.doFilter(req, resp);
+
         } else {
             Object user = request.getSession().getAttribute("user");
             if (user != null) {
