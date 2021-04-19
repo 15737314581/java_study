@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="xd_webdemo:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/xd_webdemo_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="xd_webdemo/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="xd_webdemo" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
